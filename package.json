@@ -13,7 +13,8 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4",
     "ajv": "^6.12.6",
-    "json-schema-traverse": "^0.4.1"
+    "json-schema-traverse": "^0.4.1",
+    "typescript": "^5.3.3"
   },
   "scripts": {
     "start": "react-scripts start",
