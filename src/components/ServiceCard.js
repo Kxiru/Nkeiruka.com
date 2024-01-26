@@ -1,12 +1,10 @@
 export default function ServiceCard(props) {
   return (
-    <div className="text-center shadow-lg p-5 rounded-xl my-10 flex-1 bg-white">
+    <div className="text-center shadow-lg p-5 rounded-xl my-10 flex-1 bg-teal-50">
       <div>
         <img
           className="mx-auto w-50 h-40 object-cover rounded-md"
           src={props.cardImage}
-          //   max-width={200}
-          //   max-height={100}
         />
       </div>
       <div className="h-40">

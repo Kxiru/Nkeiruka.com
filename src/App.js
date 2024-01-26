@@ -4,7 +4,7 @@ import AboutMe from "./components/AboutMe";
 import Projects from "./components/Projects";
 import { useState } from "react";
 import NavBar from "./components/NavBar";
-import SkillsCertifications from "./components/Skills_Certs";
+import SkillsCertifications from "./components/SkillsCertifications";
 import Footer from "./components/Footer";
 
 function App() {
@@ -21,8 +21,8 @@ function App() {
         <NavBar darkMode={darkMode} setDarkModeOnClick={setDarkModeOnClick} />
         <HeroHeader />
         <AboutMe />
-        <Projects />
         <SkillsCertifications />
+        <Projects />
         <Footer />
       </main>
     </div>

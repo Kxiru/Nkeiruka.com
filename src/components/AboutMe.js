@@ -7,7 +7,7 @@ export default function AboutMe() {
   return (
     <section>
       <div className="dark:text-gray-200">
-        <h3 className="text-3xl py-1 ">A Little about me...</h3>
+        <h3 className="text-3xl py-1 ">What do I do?</h3>
         <p className="text-md py-2 leading-8 text-gray-80">
           I have a huge interest in Emerging Technologies and Cloud Computing,
           and as such, you can often find me working on personal projects, such
@@ -21,13 +21,11 @@ export default function AboutMe() {
           A cup of tea is never be too far away either! ☕
         </p>
       </div>
-      <div className="lg:flex gap-5">
+      <div className="md:flex gap-5">
         <ServiceCard
           cardImage={nytwalker}
           cardTitle={"Full Stack Development"}
-          cardDescription={
-            "Full Stack App and Web Development projects. Both personal and professional!"
-          }
+          cardDescription={"Full Stack App and Web Development projects!"}
           cardLink={"https://github.com/Kxiru"}
         />
         <ServiceCard
