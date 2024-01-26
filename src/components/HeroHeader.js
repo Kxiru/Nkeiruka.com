@@ -14,19 +14,19 @@ export default function HeroHeader() {
         <img src={nkeiru} />
       </div>
       <div className="text-center p-10">
-        <h2 className="text-5xl py-2 text-teal-600 font-medium md:text-6xl">
+        <h2 className="text-4xl py-2 text-teal-600 font-medium md:text-5xl">
           Nkeiruka Whenu
         </h2>
-        <h3 className="text-2xl py-2 md:text-3xl dark:text-gray-200">
+        <h3 className="text-2xl py-2 md:text-2xl dark:text-gray-200">
           Your favourite Software Engineer
         </h3>
-        <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-200">
+        <p className="text-md py-5 leading-8 text-gray-800 md:text-lg max-w-xl mx-auto dark:text-gray-200">
           I am a Full-Stack Developer and Freelance Writer, currently living in
           London with a Bachelor's Degree in Computer Science and Software
           Engineering.
         </p>
       </div>
-      <div className="text-5xl flex justify-center gap-16 py-3 text-teal-500">
+      <div className="text-4xl flex justify-center gap-16 py-3 text-teal-500 mx-10">
         <a href="http://www.instagram.com/nkxiru">
           <AiFillInstagram className="hover:text-teal-800 dark:hover:text-white" />
         </a>

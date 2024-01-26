@@ -5,8 +5,8 @@ import mongo from "../images/mongodbbadge.png";
 
 export default function SkillsCertifications() {
   return (
-    <section>
-      <div className="my-20 dark:text-gray-200">
+    <section className="dark:text-gray-200">
+      <div className="my-20 ">
         <div>
           <h3 className="text-3xl py-1 ">Certifications</h3>
           <p className="text-md py-2 leading-8 text-gray-80">
@@ -14,7 +14,7 @@ export default function SkillsCertifications() {
             don't come too far behind!
           </p>
         </div>
-        <div className="flex text-center">
+        <div className="flex justify-center">
           <img src={awscp} className="w-24 h-24" />
           <img src={mongo} className="w-24 h-24" />
           <img src={awssa} className="w-24 h-24" />

@@ -4,8 +4,8 @@ import ProjectCard from "./ProjectCard";
 
 export default function Projects() {
   return (
-    <section>
-      <div className="dark:text-gray-200">
+    <section className="dark:text-gray-200">
+      <div>
         <h3 className="text-3xl py-1">Some recent projects...</h3>
         <p className="text-md py-2 leading-8 text-gray-80">
           I love to keep myself <span className="text-teal-500">busy</span> and
