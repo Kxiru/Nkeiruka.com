@@ -5,20 +5,19 @@ import {
   AiFillYoutube,
   AiFillInstagram,
 } from "react-icons/ai";
+import { IoMdMailOpen } from "react-icons/io";
 
 export default function HeroHeader() {
   return (
     <section className="min-h-screen">
-      <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden">
+      <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-72 h-72 mt-20 overflow-hidden">
         <img src={nkeiru} />
       </div>
       <div className="text-center p-10">
         <h2 className="text-5xl py-2 text-teal-600 font-medium md:text-6xl">
-          {" "}
           Nkeiruka Whenu
         </h2>
         <h3 className="text-2xl py-2 md:text-3xl dark:text-gray-200">
-          {" "}
           Your favourite Software Engineer
         </h3>
         <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-200">
@@ -39,6 +38,9 @@ export default function HeroHeader() {
         </a>
         <a href="https://youtube.com/c/keiru">
           <AiFillYoutube className="hover:text-teal-800 dark:hover:text-white" />
+        </a>
+        <a href="mailto:nkeirukawhenu@gmail.com">
+          <IoMdMailOpen className="hover:text-teal-800 dark:hover:text-white" />
         </a>
       </div>
     </section>
