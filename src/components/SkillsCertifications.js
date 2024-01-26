@@ -1,4 +1,6 @@
 import awscp from "../images/awscp.png";
+import awssa from "../images/awssa.png";
+import cbf from "../images/cbflogo.jpg";
 import mongo from "../images/mongodbbadge.png";
 
 export default function SkillsCertifications() {
@@ -15,11 +17,11 @@ export default function SkillsCertifications() {
         <div className="flex text-center">
           <img src={awscp} className="w-24 h-24" />
           <img src={mongo} className="w-24 h-24" />
-          <img src={awscp} className="w-24 h-24" />
-          <img src={awscp} className="w-24 h-24" />
+          <img src={awssa} className="w-24 h-24" />
+          <img src={cbf} className="w-24 h-24" />
         </div>
         {/* <div>
-        <h3>Certifications</h3>
+        <h3>Skills</h3>
       </div> */}
       </div>
     </section>

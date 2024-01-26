@@ -1,5 +1,6 @@
 import mots from "../images/mots.jpg";
 import sorc from "../images/sorc.jpg";
+import ProjectCard from "./ProjectCard";
 
 export default function Projects() {
   return (
@@ -14,7 +15,8 @@ export default function Projects() {
         </p>
       </div>
       <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
-        <div className="basis-1/3 flex-1">
+        <h2>Section coming soon...</h2>
+        {/* <div className="basis-1/3 flex-1">
           <img
             src={mots}
             className="rounded-lg object-cover"
@@ -29,7 +31,7 @@ export default function Projects() {
             width={"100%"}
             height={"100%"}
           />
-        </div>
+        </div> */}
       </div>
     </section>
   );
