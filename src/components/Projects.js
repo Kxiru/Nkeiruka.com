@@ -1,6 +1,8 @@
 import mots from "../images/mots.jpg";
 import sorc from "../images/sorc.jpg";
 import ProjectCard from "./ProjectCard";
+import nytwalker from "../images/nytwalker.png";
+import ytlogo from "../images/ytlogo.png";
 
 export default function Projects() {
   return (
@@ -14,24 +16,20 @@ export default function Projects() {
           related projects, feel free to check out my Github!
         </p>
       </div>
-      <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
-        <h2>Section coming soon...</h2>
-        {/* <div className="basis-1/3 flex-1">
-          <img
-            src={mots}
-            className="rounded-lg object-cover"
-            width={"100%"}
-            height={"100%"}
-          />
-        </div>
-        <div className="basis-1/3 flex-1">
-          <img
-            src={sorc}
-            className="rounded-lg object-cover"
-            width={"100%"}
-            height={"100%"}
-          />
-        </div> */}
+      <div className="flex items-center justify-center flex-col gap-5 py-10 lg:flex-row lg:flex-wrap">
+        <ProjectCard name={"ISBScan"} description={""} img_src={""} />
+        <ProjectCard
+          name={"Memories on the shoreline"}
+          description={""}
+          img_src={mots}
+        />
+        <ProjectCard
+          name={"Switch On! Robot Cupid"}
+          description={""}
+          img_src={sorc}
+        />
+        <ProjectCard name={"Nytwalker"} description={""} img_src={nytwalker} />
+        <ProjectCard name={"Youtube"} description={""} img_src={ytlogo} />
       </div>
     </section>
   );
