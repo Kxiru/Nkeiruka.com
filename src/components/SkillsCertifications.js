@@ -14,11 +14,11 @@ export default function SkillsCertifications() {
             don't come too far behind!
           </p>
         </div>
-        <div className="flex justify-center">
-          <img src={awscp} className="w-24 h-24" />
-          <img src={mongo} className="w-24 h-24" />
-          <img src={awssa} className="w-24 h-24" />
-          <img src={cbf} className="w-24 h-24" />
+        <div className="flex justify-center gap-10">
+          <img src={awscp} className="w-24 h-24" alt="" />
+          <img src={mongo} className="w-24 h-24" alt="" />
+          <img src={awssa} className="w-24 h-24" alt="" />
+          <img src={cbf} className="w-24 h-24" alt="" />
         </div>
         {/* <div>
         <h3>Skills</h3>

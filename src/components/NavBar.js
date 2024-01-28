@@ -13,7 +13,7 @@ export default function NavBar({ setDarkModeOnClick, darkMode }) {
   };
 
   return (
-    <nav className="py-10 mb-12 flex justify-between">
+    <nav className="py-8 mb-12 flex justify-between">
       <h1 className="text-lg font-burtons dark:text-gray-200">
         Developed by Nkeiru
       </h1>

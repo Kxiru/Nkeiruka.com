@@ -9,7 +9,7 @@ import { IoMdMailOpen } from "react-icons/io";
 
 export default function HeroHeader() {
   return (
-    <section className="min-h-screen">
+    <div>
       <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-72 h-72 mt-20 overflow-hidden">
         <img src={nkeiru} />
       </div>
@@ -43,6 +43,6 @@ export default function HeroHeader() {
           <IoMdMailOpen className="hover:text-teal-800 dark:hover:text-white" />
         </a>
       </div>
-    </section>
+    </div>
   );
 }

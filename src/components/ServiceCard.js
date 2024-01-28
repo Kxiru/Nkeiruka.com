@@ -1,10 +1,11 @@
 export default function ServiceCard(props) {
   return (
-    <div className="text-center shadow-lg p-5 rounded-xl my-10 flex-1 bg-teal-50">
+    <div className="text-center shadow-lg p-5 rounded-xl my-10 flex-1 bg-white">
       <div>
         <img
           className="mx-auto w-50 h-40 object-cover rounded-md"
           src={props.cardImage}
+          alt=""
         />
       </div>
       <div className="h-40">
@@ -16,7 +17,7 @@ export default function ServiceCard(props) {
       <div className="my-5">
         <a
           href={props.cardLink}
-          className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded"
+          className="bg-gradient-to-r bg-teal-500 text-white px-4 py-2 rounded"
         >
           Find out more
         </a>

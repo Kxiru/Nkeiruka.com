@@ -25,14 +25,16 @@ export default function AboutMe() {
         <ServiceCard
           cardImage={nytwalker}
           cardTitle={"Full Stack Development"}
-          cardDescription={"Full Stack App and Web Development projects!"}
+          cardDescription={
+            "Full Stack, Game and Web Development projects galore! I primarily work with JavaScript, TypeScript and React.js, but I am an agnostic programmer. Check out my Github!"
+          }
           cardLink={"https://github.com/Kxiru"}
         />
         <ServiceCard
           cardImage={fiverr}
-          cardTitle={"Freelance Writing"}
+          cardTitle={"Freelance Creative Writing"}
           cardDescription={
-            "Fiction, non-fiction and script creative writing services."
+            "I offer professional, speedy and highly customisable freelance fiction, non-fiction and script-writing creative services. Check out my past clients!"
           }
           cardLink={"https://www.fiverr.com/nkeirukaw"}
         />
@@ -40,7 +42,7 @@ export default function AboutMe() {
           cardImage={web3sy}
           cardTitle={"Web3sy"}
           cardDescription={
-            "Educating young professionals on new and emerging technologies."
+            "Web3sy is actively educating young professionals and tech-enthusiasts on new and emerging technologies within the tech space through courses and community. Check out what we do!"
           }
           cardLink={"https://www.web3sy.com"}
         />

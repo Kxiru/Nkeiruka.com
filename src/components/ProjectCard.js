@@ -9,7 +9,7 @@ export default function ProjectCard(props) {
     //     height={"100%"}
     //   />
     // </div>
-    <div class="group h-96 w-80 [perspective:1000px]">
+    <div class="group h-80 w-80 [perspective:1000px]">
       <div class="relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
         <div class="absolute inset-0">
           <img
@@ -22,9 +22,15 @@ export default function ProjectCard(props) {
           <div class="flex min-h-full flex-col items-center justify-center">
             <h1 class="text-3xl font-bold">{props.name}</h1>
             <p class="text-base">{props.description}</p>
-            <button class="mt-2 rounded-md bg-neutral-800 py-1 px-2 text-sm hover:bg-neutral-900">
-              Find out more
-            </button>
+            {props.url ? (
+              <a href={props.url}>
+                <button class="mt-2 rounded-md bg-teal-500 p-2 text-sm hover:bg-teal-600">
+                  Find out more
+                </button>
+              </a>
+            ) : (
+              <div></div>
+            )}
           </div>
         </div>
       </div>
