@@ -15,10 +15,10 @@ export default function SkillsCertifications() {
           </p>
         </div>
         <div className="flex justify-center gap-10">
-          <img src={awscp} className="w-24 h-24" alt="" />
-          <img src={mongo} className="w-24 h-24" alt="" />
-          <img src={awssa} className="w-24 h-24" alt="" />
-          <img src={cbf} className="w-24 h-24" alt="" />
+          <img src={awscp} className="w-36 h-36" alt="" />
+          <img src={mongo} className="w-36 h-36" alt="" />
+          <img src={awssa} className="w-36 h-36" alt="" />
+          <img src={cbf} className="w-36 h-36" alt="" />
         </div>
         {/* <div>
         <h3>Skills</h3>
