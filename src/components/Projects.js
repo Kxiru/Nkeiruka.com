@@ -19,7 +19,7 @@ export default function Projects() {
           related projects, feel free to check out my Github!
         </p>
       </div>
-      <div className="flex items-center justify-center flex-col gap-5 py-10 lg:flex-row lg:flex-wrap">
+      <div className="flex items-center justify-center flex-col gap-5 py-10 md:flex-row md:flex-wrap">
         <ProjectCard
           name={"ISBScan"}
           description={
