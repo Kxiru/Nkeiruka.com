@@ -23,10 +23,26 @@ export default function Projects() {
         <ProjectCard
           name={"ISBScan"}
           description={
-            "A book-keeping android app developed with React Native and Expo."
+            "A Book-keeping android app developed with React Native, Node libraries and Expo."
           }
           img_src={isbscan}
           url={"https://github.com/Kxiru/ISBScan-App"}
+        />
+        <ProjectCard
+          name={"QLOQ"}
+          description={
+            "A Tamagotchi-like WearOS Watch app developed with Kotlin and Java on Android Studio."
+          }
+          img_src={qloq}
+          url={"https://github.com/Kxiru/Qloq-Smart-Watch-App"}
+        />
+        <ProjectCard
+          name={"Nytwalker"}
+          description={
+            "A horror-rpg pixel game developed in Unity with C#. Demo developed with Python."
+          }
+          img_src={nytwalker}
+          url={"https://kxiiru.itch.io/nytwalker"}
         />
         <ProjectCard
           name={"Memories on the shoreline"}
@@ -39,23 +55,9 @@ export default function Projects() {
           }
         />
         <ProjectCard
-          name={"QLOQ"}
-          description={
-            "A tamagotchi-like WearOS Watch app developed with Kotlin and Java."
-          }
-          img_src={qloq}
-          url={"https://github.com/Kxiru/Qloq-Smart-Watch-App"}
-        />
-        <ProjectCard
           name={"Switch On! Robot Cupid"}
           description={"Script writing for an Otome Visual Novel game."}
           img_src={sorc}
-        />
-        <ProjectCard
-          name={"Nytwalker"}
-          description={"A horror-rpg pixel game developed in Unity with C#."}
-          img_src={nytwalker}
-          url={"https://kxiiru.itch.io/nytwalker"}
         />
         <ProjectCard
           name={"Youtube"}

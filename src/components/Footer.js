@@ -1,7 +1,8 @@
 export default function Footer() {
   return (
-    <div className="p-10 mx-auto dark:text-gray-200">
-      <p className="text-center">Developed with React.js and TailwindCSS</p>
+    <div className="text-center p-10 mx-auto dark:text-gray-200">
+      <p>Developed in 2024 by Nkeiruka Whenu</p>
+      <p>Made with React.js and TailwindCSS</p>
     </div>
   );
 }
